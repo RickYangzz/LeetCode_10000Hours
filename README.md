@@ -1,7 +1,13 @@
-echo "# LeetCode_10000Hours" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Distringer/LeetCode_10000Hours.git
-git push -u origin main
+## echo "# LeetCode_10000Hours" >> README.md
+
+- git init
+
+- git add README.md
+
+- git commit -m "first commit"
+
+- git branch -M main
+
+- git remote add origin https://github.com/Distringer/LeetCode_10000Hours.git
+
+- git push -u origin main
