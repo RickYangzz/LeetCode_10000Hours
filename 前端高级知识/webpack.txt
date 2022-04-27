@@ -1,0 +1,11 @@
+先从基本概念开始了解，了解设计初衷、设计方法，有什么源头。
+目标：学会设计与开发此类软件。
+
+
+可以有的资料：
+1. 官网文档：
+	概念：https://webpack.docschina.org/concepts
+	模块：https://webpack.docschina.org/concepts/modules
+	对比：https://webpack.docschina.org/comparison
+	博客：https://webpack.docschina.org/blog/2020-12-08-roadmap-2021/
+2. 互联网视频讲解：
