@@ -22,9 +22,11 @@ class Solution:
     def isPalindrome(self, start, end):
         if start == end: return True
 
-        return self.s[start] == self.s[end] and (
-            end - start == 1 or self.dp[start+1][end-1] == True
-        )
+        if self.s[start] == self.s[end] and end - start <= 2: return True
+        
+        if self.s[start] == self.s[end] and self.dp[start+1][end-1] == True: return True
+
+        return False
     
     def record(self, start, end):
         self.dp[start][end] = True
