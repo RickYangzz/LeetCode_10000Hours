@@ -1,0 +1,58 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Docker
+docker-compose.override.yml
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Coverage reports
+.coverage
+*.coveragerc
+
+# pipenv
+Pipfile.lock
+
+# pytest
+.cache/
+
+# mypy
+.mypy_cache/
+
+# Sphinx documentation
+_build/
+
+# pyenv
+.python-version
