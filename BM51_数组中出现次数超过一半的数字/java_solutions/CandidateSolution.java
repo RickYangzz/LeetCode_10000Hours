@@ -1,8 +1,5 @@
 package BM51_数组中出现次数超过一半的数字.java_solutions;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class CandidateSolution {
     /**
      * 给一个长度为 n 的数组，
