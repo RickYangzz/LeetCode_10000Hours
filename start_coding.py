@@ -26,5 +26,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM42_用两个栈实现队列"
+problem_name = "BM51_数组中出现次数超过一半的数字"
 create_structure(problem_name)
