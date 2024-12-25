@@ -26,5 +26,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM25_二叉树的后序遍历"
+problem_name = "BM42_用两个栈实现队列"
 create_structure(problem_name)
