@@ -26,5 +26,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM55_没有重复项数字的全排列"
+problem_name = "BM62_斐波那契数列"
 create_structure(problem_name)
