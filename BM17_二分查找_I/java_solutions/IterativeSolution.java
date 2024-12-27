@@ -1,4 +1,4 @@
-package BM1_二分查找_I.java_solutions;
+package BM17_二分查找_I.java_solutions;
 
 /**
  * 二分查找的迭代实现
