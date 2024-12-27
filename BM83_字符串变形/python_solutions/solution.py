@@ -1,6 +1,6 @@
 class Solution:
     def trans(self , s: str, n: int) -> str:
-        stack = []*n
+        stack = []
         word = ""
         for i in range(len(s)):
             letter = s[i]
