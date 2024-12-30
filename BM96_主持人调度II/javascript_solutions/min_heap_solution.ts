@@ -7,29 +7,26 @@
  * @return int整型
  */
 export function minmumNumberOfHost(n: number, startEnd: number[][]): number {
-    startEnd.sort(startEndSort);
+    // 边界条件处理
+    if (n === 0 || startEnd.length === 0) {
+        return 0;
+    }
 
+    // 按活动的开始时间排序，若开始时间相同按结束时间排序
+    startEnd.sort((a, b) => (a[0] === b[0] ? a[1] - b[1] : a[0] - b[0]));
+    // 最小堆：存储活动的结束时间
     const minHeap = new MinHeap();
-    minHeap.insert(Number.NEGATIVE_INFINITY);
 
     for (const activity of startEnd) {
-        if (activity[0] >= minHeap.peek()) {
-            minHeap.extractMin();
+        // 检查最早结束的活动是否可以复用主持人
+        if (minHeap.peek() !== null && activity[0] >= minHeap.peek()!) {
+            minHeap.extractMin(); // 移除最早结束的活动
         }
+        // 添加当前活动的结束时间
         minHeap.insert(activity[1]);
     }
 
     return minHeap.size();
-}
-
-function startEndSort(activity1, activity2) {
-    if (activity1[0] == activity2[0]) {
-        if (activity1[1] >= activity2[1]) return 1;
-        else return -1;
-    }
-
-    if (activity1[0] >= activity2[0]) return 1;
-    else return -1;
 }
 
 class MinHeap {
