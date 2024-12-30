@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM88_判断是否为回文字符串"
+problem_name = "BM96_主持人调度II"
 create_structure(problem_name)
