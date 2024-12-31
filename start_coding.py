@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM97_旋转数组"
+problem_name = "BM2_链表内指定区间反转"
 create_structure(problem_name)
