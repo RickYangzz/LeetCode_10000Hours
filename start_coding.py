@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM19_寻找峰值"
+problem_name = "BM28_二叉树的最大深度"
 create_structure(problem_name)
