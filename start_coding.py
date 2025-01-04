@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM43_包含min函数的栈"
+problem_name = "BM52_数组中只出现一次的两个数字"
 create_structure(problem_name)
