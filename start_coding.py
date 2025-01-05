@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM52_数组中只出现一次的两个数字"
+problem_name = "BM56_有重复项数字的全排列"
 create_structure(problem_name)
