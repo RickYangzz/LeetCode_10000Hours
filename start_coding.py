@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM84_最长公共前缀"
+problem_name = "BM89_合并区间"
 create_structure(problem_name)
