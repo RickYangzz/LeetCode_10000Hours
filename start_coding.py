@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM4_合并两个排序的链表"
+problem_name = "BM20_数组中的逆序对"
 create_structure(problem_name)
