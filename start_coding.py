@@ -11,7 +11,7 @@ def create_structure(problem_name):
     with open(f"{problem_name}/java_solutions/Solution.java", 'w') as f:
         f.write("// Java solution code here\n")
     
-    with open(f"{problem_name}/javascript_solutions/solution.ts", 'w') as f:
+    with open(f"{problem_name}/javascript_solutions/Solution.ts", 'w') as f:
         f.write("// JavaScript solution code here\n")
     
     with open(f"{problem_name}/python_solutions/solution.py", 'w') as f:
@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM20_数组中的逆序对"
+problem_name = "BM30_二叉搜索树与双向链表"
 create_structure(problem_name)
