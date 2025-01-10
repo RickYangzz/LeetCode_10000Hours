@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM30_二叉搜索树与双向链表"
+problem_name = "BM44_有效括号序列"
 create_structure(problem_name)
