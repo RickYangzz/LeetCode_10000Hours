@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM44_有效括号序列"
+problem_name = "BM53_缺失的第一个正整数"
 create_structure(problem_name)
