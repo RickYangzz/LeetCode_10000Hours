@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM91_反转字符串"
+problem_name = "BM100_设计LRU缓存结构"
 create_structure(problem_name)
