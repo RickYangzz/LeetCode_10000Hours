@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM5_合并k个已排序的链表"
+problem_name = "BM21_旋转数组的最小数字"
 create_structure(problem_name)
