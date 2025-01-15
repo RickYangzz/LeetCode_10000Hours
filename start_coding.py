@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM32_合并二叉树"
+problem_name = "BM45_滑动窗口的最大值"
 create_structure(problem_name)
