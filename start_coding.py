@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM92_最长无重复子数组"
+problem_name = "BM101_设计LFU缓存结构"
 create_structure(problem_name)
