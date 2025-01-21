@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM46_最小的K个数"
+problem_name = "BM60_括号生成"
 create_structure(problem_name)
