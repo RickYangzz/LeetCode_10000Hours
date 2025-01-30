@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM47_寻找第K大"
+problem_name = "BM61_矩阵最长递增路径"
 create_structure(problem_name)
