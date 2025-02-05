@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM67_不同路径的数目"
+problem_name = "BM68_矩阵的最小路径和"
 create_structure(problem_name)
