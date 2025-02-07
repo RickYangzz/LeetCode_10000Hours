@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM8_链表中倒数最后k个结点"
+problem_name = "BM35_判断是不是完全二叉树"
 create_structure(problem_name)
