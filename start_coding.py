@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM38_在二叉树中找到两个节点的最近公共祖先"
+problem_name = "BM74_数字字符串转化成IP地址"
 create_structure(problem_name)
