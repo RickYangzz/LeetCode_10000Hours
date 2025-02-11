@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM73_最长回文子串"
+problem_name = "BM13_判断一个链表是否为回文结构"
 create_structure(problem_name)
