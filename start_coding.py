@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM14_链表的奇偶重排"
+problem_name = "BM39_序列化二叉树"
 create_structure(problem_name)
