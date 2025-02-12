@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM75_编辑距离(一)"
+problem_name = "BM15_删除有序链表中重复的元素I"
 create_structure(problem_name)
