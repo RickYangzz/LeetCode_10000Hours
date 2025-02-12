@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "BM74_数字字符串转化成IP地址"
+problem_name = "BM14_链表的奇偶重排"
 create_structure(problem_name)
