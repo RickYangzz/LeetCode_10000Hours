@@ -1,16 +1,9 @@
-## echo "# LeetCode_10000Hours" >> README.md
+https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
 
-- git init
-
-- git add README.md
-
-- git commit -m "first commit"
-
-- git branch -M main
-
-- git remote add origin https://github.com/Distringer/LeetCode_10000Hours.git
-
-- git push -u origin main
-
-## 极客时间
-https://www.aliyundrive.com/s/KA7xz91Ca4w
+- feat: (new feature for the user, not a new feature for build script)
+- fix: (bug fix for the user, not a fix to a build script)
+- docs: (changes to the documentation)
+- style: (formatting, missing semi colons, etc; no production code change)
+- refactor: (refactoring production code, eg. renaming a variable)
+- test: (adding missing tests, refactoring tests; no production code change)
+- chore: (updating grunt tasks etc; no production code change)
