@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "200_Number_of_Islands"
+problem_name = "207_Course_Schedule"
 create_structure(problem_name)
