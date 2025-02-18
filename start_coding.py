@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "HW_exam_2_寻找K个数累加为N"
+problem_name = "HW_exam_2_随机4个数全排列排序"
 create_structure(problem_name)
