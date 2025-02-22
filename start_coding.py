@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "HW_exam_2_随机4个数全排列排序"
+problem_name = "94_Binary_Tree_Inorder_Traversal"
 create_structure(problem_name)
