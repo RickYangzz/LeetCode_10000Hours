@@ -20,5 +20,5 @@ def create_structure(problem_name):
     print(f"Structure for {problem_name} has been created.")
 
 # Example usage
-problem_name = "94_Binary_Tree_Inorder_Traversal"
+problem_name = "32_Longest_Valid_Parentheses"
 create_structure(problem_name)
